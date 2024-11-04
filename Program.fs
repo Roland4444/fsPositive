@@ -10,8 +10,7 @@ let calculatePositiveCounter(input: List<int>) =
 
 let ListFromString(input: string) = 
     let lstStr = input.Split ' ' 
-    List.map (fun f -> f |> int) (lstStr |> Array.toList)
-    
+    List.map (fun f -> f |> int) (lstStr |> Array.toList)    
 
 [<EntryPoint>]
 let main args =
